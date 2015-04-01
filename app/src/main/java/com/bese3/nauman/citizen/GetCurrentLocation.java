@@ -1,8 +1,5 @@
 package com.bese3.nauman.citizen;
 
-import android.support.v4.app.FragmentActivity;
-import android.os.Bundle;
-
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
@@ -15,11 +12,7 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
 
 public class GetCurrentLocation extends FragmentActivity {
 
@@ -118,7 +111,7 @@ public class GetCurrentLocation extends FragmentActivity {
         mMap.addMarker(new MarkerOptions()
                 .position(currentPosition)
                 .snippet("Lat: " + location.getLatitude() + ", Lng: " + location.getLongitude())
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_peterleow))
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.person1))
                 .flat(true)
                 .title("I'm here!"));
         

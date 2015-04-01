@@ -32,18 +32,23 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+/*
+
 import com.bese3.nauman.citizen.data.User;
 import com.bese3.nauman.citizen.data.service.UserService;
 
 import java.util.ArrayList;
 import java.util.List;
 
+*/
 
 /**
  * A login screen that offers login via email/password.
  */
 public class LoginActivity2 extends Activity {
     // UI references.
+
+    /*
     private AutoCompleteTextView mEmailView;
     private EditText mPasswordView;
     private View mProgressView;
@@ -162,6 +167,8 @@ public class LoginActivity2 extends Activity {
             }
         }
     };
+
+    */
 }
 
 

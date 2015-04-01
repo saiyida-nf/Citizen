@@ -24,13 +24,14 @@ import android.widget.Toast;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import com.bese3.nauman.citizen.data.User;
-import com.bese3.nauman.citizen.data.service.UserService;
+
+//import com.bese3.nauman.citizen.data.User;
+//import com.bese3.nauman.citizen.data.service.UserService;
 
 
 
 public class SignUp extends ActionBarActivity {
-
+/*
     private ImageView profileImageView;
     private EditText usernameEditText;
     private EditText passwordEditText;
@@ -167,4 +168,6 @@ public class SignUp extends ActionBarActivity {
         startActivity(intent);
         finish();
     }
+
+    */
 }
